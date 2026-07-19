@@ -1,3 +1,12 @@
+/*
+Question:
+27. String Reversal (In-Place)
+Write a C function void reverse_string(char *str) that reverses a string in-place (without allocating a second array or using external memory).
+
+Input: "Data Structures"
+Output: "serutcurtS ataD"
+*/
+
 #include <stdio.h>
 
 void reverse_string(char *str) {
