@@ -1,3 +1,21 @@
+/*
+Question:
+1. Sum of even numbers in Fibonacci series
+Given a number n find the sum of all the even valued terms in the Fibonacci sequence less than or equal to n.
+The first few terms of Fibonacci Numbers are, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233 ,… (Even numbers are highlighted).
+ex: n = 10
+1,1,2,3,5,8,13 skip 13 as it is greater than 10. 
+output = 2+8 = 10
+
+ex: n = 50
+1,1,2,3,5,8,13,21,34
+output = 2+8+34 = 44
+Solve the problems using two approaches
+
+Brute Force : O(n) Time and O(1) Space
+Optimized Approach : O(log n) Time and O(1) Space
+*/
+
 #include <stdio.h>
 
 // Brute Force Approach: O(n) Time, O(1) Space
