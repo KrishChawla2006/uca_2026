@@ -1,3 +1,9 @@
+/*
+Question:
+26. Custom Implementation (No <string.h>)
+Write a custom C function int my_strlen(const char *str) that calculates and returns the length of a string without using the built-in strlen() function.
+*/
+
 #include <stdio.h>
 
 int my_strlen(const char *str) {
