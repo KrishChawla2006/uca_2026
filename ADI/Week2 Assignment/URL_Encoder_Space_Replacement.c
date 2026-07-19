@@ -1,3 +1,11 @@
+/*
+Question:
+29. URL Encoder (Space Replacement)
+Write a C function void url_encode(char *str, int true_length) that replaces all spaces in a string with "%20". Assume the string has sufficient buffer space at the end to hold the additional characters, and you are given the "true" length of the initial string.
+
+Input: "Hello World  ", true_length = 11
+Output: "Hello%20World"
+*/
 #include <stdio.h>
 
 void url_encode(char *str, int true_length) {
