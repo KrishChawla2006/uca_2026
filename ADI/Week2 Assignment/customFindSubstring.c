@@ -1,3 +1,12 @@
+/*
+Question:
+28. Substring Search (Custom strstr)
+Implement your own version of the standard C strstr() function: int find_substring(const char *haystack, const char *needle). The function should return the starting index of the first occurrence of the needle string within the haystack string. If the needle is not found, return -1.
+
+Input: haystack = "Embedded Systems", needle = "bed"
+Output: 2 (since "bed" starts at index 2)
+Constraint: Do not use any functions from <string.h>.
+*/
 #include <stdio.h>
 
 int find_substring(const char *haystack, const char *needle) {
