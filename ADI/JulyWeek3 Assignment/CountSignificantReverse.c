@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdlib.h> 
 
 int merge(int nums[], int low, int mid, int high) {
     int count = 0;
