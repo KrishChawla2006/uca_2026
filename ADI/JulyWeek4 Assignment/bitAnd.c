@@ -9,7 +9,7 @@ Implement following function with the given constraints:
  *   Legal ops: ~ |
  *   Max ops: 8
  *   Rating: 1
- */
+ 
 int bitAnd(int x, int y) {
   return 0;
 }
