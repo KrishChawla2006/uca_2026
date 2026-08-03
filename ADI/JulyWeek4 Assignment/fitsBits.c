@@ -1,0 +1,36 @@
+/*
+Question:
+fitBits
+Complete the following function
+
+/* 
+ * fitsBits - return 1 if x can be represented as an 
+ *  n-bit, two's complement integer.
+ *   1 <= n <= 32
+ *   Examples: fitsBits(5,3) = 0, fitsBits(-4,3) = 1
+ *   Legal ops: ! ~ & ^ | + << >>
+ *   Max ops: 15
+ *   Rating: 2
+ 
+int fitsBits(int x, int n) {
+  return 0;
+}
+*/
+
+#include<stdio.h>
+
+int fitsBits(int x, int n) {
+    int shift = 32 + (~n + 1);   
+    return !(((x << shift) >> shift) ^ x);
+}
+
+int main(){
+  int x;
+  int n;
+  printf("Enter the value of x:");
+  scanf("%d",&x);
+  printf("Enter the value of n:");
+  scanf("%d",&n);
+  printf("%d check fits bits with %d = %d",x,n,fitsBits(x,n));
+  return 0;
+}
